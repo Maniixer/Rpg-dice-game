@@ -62,6 +62,7 @@ function endGame() {
         <h2>Game Over</h2>
         <h3>${endMessage}</h3>
         <p class="end-emoji">${endEmoji}</p>
+        ${endSound}
     </div>`;
   }, 2700);
 }
