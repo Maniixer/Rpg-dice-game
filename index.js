@@ -19,6 +19,7 @@ function attack() {
     render();
 
     if (wizard.dead) {
+      isWaiting = true;
       endGame();
     } else if (monster.dead) {
       isWaiting = true;
