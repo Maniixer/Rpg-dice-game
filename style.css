@@ -98,7 +98,7 @@ main {
   }
 }
 
-.health b {
+.health {
   font-weight: bold;
   color: #fff;
 }
@@ -126,7 +126,7 @@ main {
   height: 30%;
   position: absolute;
   bottom: 0;
-  left: 0px;
+  left: 0;
   right: 0;
   background: #000721;
   display: flex;
